@@ -1,0 +1,55 @@
+site_name: IITT HPC Documentation
+site_url: https://example.com/
+site_description: ""
+site_author: P Vamshi Seshasayan <vamshi@iittp.ac.in>
+nav:
+    - Home: index.md    
+    - Lotus Cluster: lotus/index.md
+    - Orchid Cluster: orchid/index.md
+    - Using the HPC Systems:       
+      - Requesting an account: hpc/requesting-an-account.md
+      - Connecting to Lotus and Orchid Clusters: hpc/connecting-to-clusters.md
+      - Using software with modules: hpc/using-modules.md
+      - Transferring files: ''
+      - Job script examples: ''
+      - Running Jobs with PBS: ''
+      - Monitoring Jobs: ''
+      - Debugging: ''
+    - Do's and Don'ts: ''
+    - Getting Help: ''
+
+
+theme:
+    name: material
+    custom_dir: overrides
+    features:      
+      - navigation.expand
+      - navigation.top
+    highlightjs: true
+    hljs_languages:
+        - yaml
+        - rust
+    icon:
+      repo: fontawesome/brands/github
+
+
+repo_url: https://github.com/P-Vamshi-Seshasayan/iitt-hpc-docs
+repo_name: 'iitt-hpc-docs'
+
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - attr_list
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde  
+
+plugins:
+  - search
+  - git-revision-date
+
+copyright: Copyright &copy; 2021 Computer Center, IIT Tirupati
+
+
