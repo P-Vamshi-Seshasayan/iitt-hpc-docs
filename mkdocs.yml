@@ -36,10 +36,7 @@ theme:
 repo_url: https://github.com/P-Vamshi-Seshasayan/iitt-hpc-docs
 repo_name: 'iitt-hpc-docs'
 
-markdown_extensions:
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+markdown_extensions:  
   - attr_list
   - pymdownx.critic
   - pymdownx.caret
