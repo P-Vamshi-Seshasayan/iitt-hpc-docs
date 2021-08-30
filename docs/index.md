@@ -10,7 +10,9 @@ Run by Computer Center’ Systems vertical and they support the computational ne
 
 
 ## CC - Systems Vertical
-The CC-Systems vertical is responsible for HPC and cloud computing services to the users of the institute. If you require support, the team would be happy to help. Take a look at the [Computer Center](https://cc.iittp.ac.in) website.
+The CC-Systems vertical is responsible for HPC and cloud computing services to the users of the institute. If you require support, the team would be happy to help. 
+
+Also, take a look at the [Computer Center](https://cc.iittp.ac.in) website.
 
 
 <figure style="">

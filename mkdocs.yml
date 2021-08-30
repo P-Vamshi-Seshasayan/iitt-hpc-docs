@@ -22,10 +22,18 @@ nav:
     - Getting Help: ''
     - Useful Resources: ''
 
-
 theme:
     name: material
     custom_dir: overrides
+    palette:
+      - scheme: default
+        toggle:
+          icon: material/toggle-switch-off-outline
+          name: Switch to dark mode
+      - scheme: slate
+        toggle:
+          icon: material/toggle-switch
+          name: Switch to light mode
     font:
       text: Nunito
     features:      

@@ -2,7 +2,7 @@
 
 You must use [CCSS](https://ccss.iittp.ac.in){:target="_blank"} to request an account. Our team will create an account for you and share the details there.
 
-##Steps are show below:
+##Steps are shown below:
 
 * Go to https://ccss.iittp.ac.in
   ![img.png](../img/ccss1.png)
