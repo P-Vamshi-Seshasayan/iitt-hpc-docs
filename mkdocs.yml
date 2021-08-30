@@ -10,8 +10,9 @@ nav:
     - Orchid Cluster: orchid/index.md
     - Using the HPC Systems:       
       - Requesting an account: hpc/requesting-an-account.md
-      - Connecting to Lotus and Orchid Clusters: hpc/connecting-to-clusters.md
+      - Connecting to the clusters: hpc/connecting-to-clusters.md
       - Using software with modules: hpc/using-modules.md
+      - Storage: hpc/storage.md
       - Transferring files: ''
       - Job script examples: ''
       - Running Jobs with PBS: ''
@@ -19,11 +20,14 @@ nav:
       - Debugging: ''
     - Do's and Don'ts: ''
     - Getting Help: ''
+    - Useful Resources: ''
 
 
 theme:
     name: material
     custom_dir: overrides
+    font:
+      text: Nunito
     features:      
       - navigation.expand
       - navigation.top
@@ -40,13 +44,22 @@ repo_name: 'iitt-hpc-docs'
 
 markdown_extensions:  
   - attr_list
+  - admonition
   - pymdownx.critic
   - pymdownx.caret
   - pymdownx.mark
-  - pymdownx.tilde  
+  - pymdownx.tilde
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 
 plugins:
   - search
+  - minify:
+      minify_html: true
+      minify_js: true
+      htmlmin_opts:
+      remove_comments: true
   - git-revision-date
 
 copyright: Copyright &copy; 2021 Computer Center, IIT Tirupati

@@ -1,5 +1,4 @@
 # Welcome
-
 ## High Performance Computing at IIT Tirupati
 This is the documentation for The Indian Institute of Technology Tirupati’s High Performance Computing (HPC) clusters:
 
