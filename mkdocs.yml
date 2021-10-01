@@ -13,14 +13,15 @@ nav:
       - Connecting to the clusters: hpc/connecting-to-clusters.md
       - Using software with modules: hpc/using-modules.md
       - Storage: hpc/storage.md
-      - Transferring files: ''
-      - Job script examples: ''
-      - Running Jobs with PBS: ''
-      - Monitoring Jobs: ''
-      - Debugging: ''
-    - Do's and Don'ts: ''
-    - Getting Help: ''
-    - Useful Resources: ''
+      - Transferring files: hpc/transferring-files.md
+      - Job script examples: hpc/pbsscript-examples.md
+      - Running Jobs with PBS: hpc/running-jobs.md
+      - Monitoring Jobs: hpc/monitoring-jobs.md
+      - Debugging: hpc/debugging.md
+    - Using Ansys on Lotus Cluster: ''
+    - Do's and Don'ts: hpc/dosanddonts.md
+    - Getting Help: hpc/getting-help.md
+    - Useful Resources: hpc/resources.md
 
 theme:
     name: material

@@ -24,10 +24,44 @@ cpu1d       |2             | 48           | 1 day
 cpu1h       |1             | 24           | 1 hour
 gpu4d       |2             | 48           | 4 days
 
+## Software – Compilers, Libraries, Applications
 
-## Available Applications:
+### GNU compilers
 
+C = /usr/bin/gcc
+C++ = /usr/bin/g++
+FORTRAN = /usr/bin/gfortran, /usr/bin/f95
 
+### Intel MPI (Parallel) compilers
+
+mpiicc = /apps/intel/parallel_studio_xe_2019.5.075/compilers_and_libraries_2019/linux/mpi/intel64/bin/mpiicc
+mpiicpc = /apps/intel/parallel_studio_xe_2019.5.075/compilers_and_libraries_2019/linux/mpi/intel64/bin/mpiicpc
+mpiifort = /apps/intel/parallel_studio_xe_2019.5.075/compilers_and_libraries_2019/linux/mpi/intel64/bin/mpiifort
+
+### Applications:
+
+Application |Location
+------------|:------------
+GROMACS     |/apps/codes/gromacs
+LAMMPS      |/apps/codes/lammps
+Quantum Espresso|/apps/codes/qe
+VASP        |/apps/codes/vasp
+NAMD        |/apps/codes/NAMD
+Gaussian    | /etc/profile.d/gaussian.sh
+NWChem      |/apps/codes/nwchem
+SIESTA      |/apps/codes/siesta-netcdf
+BerkeleyGW  |/apps/codes/
+CPMD        |/apps/codes/CPMD_ompi
+CP2K        | /apps/codes/CP2k
+Packmol     |/apps/codes/packmol
+Vmd         |/usr/local/bin/vmd
+P4vasp      |/apps/codes/p4vasp
+Vesta       |/apps/codes/VESTA
+OVITO       |/apps/codes/ovito
+ANSYS       |/apps/codes/
+Xcrysden    |/apps/codes/xcrysden
+Gnuplot     |/usr/bin/gnuplot
+Xmgrace     |/apps/codes/xmgrace
 
 ## Utilization
 [View Resource Utilization <small>^:octicons-link-external-16:^</small>]()
