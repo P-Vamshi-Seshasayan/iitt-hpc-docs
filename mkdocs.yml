@@ -19,7 +19,7 @@ nav:
       - Monitoring Jobs: hpc/monitoring-jobs.md
       - Debugging: hpc/debugging.md
     - Using Ansys on Lotus Cluster: ''
-    - Do's and Don'ts: hpc/dosanddonts.md
+    - Do's and Don'ts: hpc/dos-and-donts.md
     - Getting Help: hpc/getting-help.md
     - Useful Resources: hpc/resources.md
 
