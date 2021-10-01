@@ -3,19 +3,19 @@
     Users are advised to keep a copy of their data with themselves, once the project/research work is completed by transferring the data in from the cluster to their local system (laptop/desktop).
 ### Transferring files using SCP
 #### Linux
-scp –r `<path to the local data directory>` `<your username>`@<IP of the lotus/orchidcluster>:<path to directory on HPC where to save the data>
+scp –r &lt;path to the local data directory&gt; &lt;your username&gt;@&lt;IP of the lotus/orchidcluster&gt;:&lt;path to directory on HPC where to save the data&gt;
 
 As an example, the file filename will be copied to/from the user's storage directory on Lotus cluster using SCP.
 
 From the local machine, open a terminal window and use SCP.
 **Local to Lotus cluster**
 ```
-scp filename user_name@10.21.130.19:/storage/user_name/
+scp filename username@10.21.130.19:/storage/user_name/
 ```
 
 **Lotus cluster to local**
 ```
-scp user_name@10.21.130.19:/storage/user_name/filename .
+scp username@10.21.130.19:/storage/user_name/filename .
 ```
 There will be a prompt for a password(s).
 
