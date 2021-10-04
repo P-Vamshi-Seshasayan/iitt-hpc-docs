@@ -18,7 +18,7 @@ nav:
       - Running Jobs with PBS: hpc/running-jobs.md
       - Monitoring Jobs: hpc/monitoring-jobs.md
       - Debugging: hpc/debugging.md
-    - Using Ansys on Lotus Cluster: ''
+    - Using Ansys on Lotus Cluster: lotus/using-ansys.md
     - Do's and Don'ts: hpc/dos-and-donts.md
     - Getting Help: hpc/getting-help.md
     - Useful Resources: hpc/resources.md
