@@ -6,7 +6,7 @@ Below are the steps for accessing Ansys workbench on HPC:
 
 To load Ansys workbench, first you need to login using ssh with X11-forwarding as
 ```
-ssh -X 10.21.130.19
+ssh -X <username>@10.21.130.19
 ```
 
 Then you need to load the Ansys workbench module as
