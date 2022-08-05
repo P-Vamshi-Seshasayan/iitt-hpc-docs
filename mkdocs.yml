@@ -12,6 +12,7 @@ nav:
       - Requesting an account: hpc/requesting-an-account.md
       - Connecting to the clusters: hpc/connecting-to-clusters.md
       - Using software with modules: hpc/using-modules.md
+      - Installing custom software: hpc/installing-software.md
       - Storage: hpc/storage.md
       - Transferring files: hpc/transferring-files.md
       - Job script examples: hpc/pbsscript-examples.md
