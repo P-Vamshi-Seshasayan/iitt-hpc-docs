@@ -14,12 +14,12 @@ nav:
       - Using software with modules: hpc/using-modules.md
       - Installing custom software: hpc/installing-software.md
       - Storage: hpc/storage.md
-      - Transferring files: hpc/transferring-files.md
-      - Job script examples: hpc/pbsscript-examples.md
+      - Transferring files: hpc/transferring-files.md      
       - Running Jobs with PBS: hpc/running-jobs.md
       - Monitoring Jobs: hpc/monitoring-jobs.md
       - Debugging: hpc/debugging.md
     - Using Ansys on Lotus Cluster: lotus/using-ansys.md
+    - Using Matlab on Lotus Cluster: lotus/using-matlab.md
     - Do's and Don'ts: hpc/dos-and-donts.md
     - Getting Help: hpc/getting-help.md
     - Useful Resources: hpc/resources.md

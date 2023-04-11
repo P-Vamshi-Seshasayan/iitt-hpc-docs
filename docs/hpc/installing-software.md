@@ -1,7 +1,7 @@
 
 #Building Software from source code
 
-Users are able to compile and install the software they need on the HPC Cluster. Software should be installed to your ```/home/username``` directory. 
+Users are able to compile and install the software they need on the HPC Cluster. Software should be installed to your ```$HOME``` directory. 
 
 Irrespective of the actual method of installation, at core the installation process involves putting the installed software in a directory in your ```$HOME``` directory and telling it where it can find all the software and libraries that it depends on.
 
@@ -10,7 +10,7 @@ This document gives the gist of one of to the most common way to build software 
 
 Compiling from source may be the only option to install software on HPC. The HPC has necessary compilers to facilitate compilation of most software. Follow the steps to know how to compile and install software from source.
 
-##Download the Source Code and Unpack it
+##Download the Source Code
 
 The source code for software on Linux comes in the form of compressed tar files, which typically have either .tar.gz or .tar.bz2 extensions. The tools that are used for packing the source code into these tar balls are ‘tar’ (used for combining multiple files into one), ‘gzip’ or bzip2 (used for compression). To fetch the source code tarball for a particular software you need to know the URL to the tarball.
 
@@ -41,10 +41,11 @@ To learn about the options provided by a specific configuration file, run the fo
 
 To start configuring the build environment, execute the following command : 
 
-```$ ./configure --prefix=/home/user/bin```
+```$ ./configure --prefix=/home/username/bin```
 
 !!! attention
-    ```username``` in ```/home/username/bin``` represents the username of the user installing the software. Example: ```/user/vamshi/bin```
+    ```username``` in ```/home/username/bin``` represents the username of the user installing the software. 
+    Example: ```/user/vamshi/bin```
 
 The prefix argument in the above command tells the system where to install the compiled binaries. If you did not set prefix argument, the system will try to install your software in root directories and you will get "Permission Denied" error.
 
