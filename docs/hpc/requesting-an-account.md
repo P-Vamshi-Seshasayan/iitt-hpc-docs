@@ -15,16 +15,16 @@ You must use [ERP](https://iittp.plumerp.co.in/prod/iittirupati/){:target="_blan
 
 * Click on ![erp3.png](../img/erp3.png){:style=vertical-align:bottom} at the top right for creating a new ticket.
 * A form will be shown to your right. Fill in the General Information in the relevant fields. 
-  - Fill the Subject field
+  <p align="right">
+    <img alt="img" src="../../img/erp4.png" />
+  </p>
+  + Fill the Subject field
   - Pick Nature of Request as 'Systems' from the list
   - Pick Request Type either as 'Lotus Cluster/New account request' or 'Orchid Cluster/ New account request'
   - Now, in the Request Details add the following:
     + your Project Incharge/Guide Name
     - your project description
-    - other details, if any
-    <p align="right">
-    <img alt="img" src="../../img/erp4.png" />
-    </p>
-    
+    - other details, if any   
+
 * Any attachments may be uploaded by clicking on the attachments tab indicated by ![erp5.png](../img/erp5.png){:style=vertical-align:bottom}
 * Click on the ![erp6.png](../img/erp6.png){:style=vertical-align:bottom} to submit the request. 
