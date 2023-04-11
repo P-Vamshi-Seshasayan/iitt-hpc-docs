@@ -30,22 +30,24 @@ module load codes/matlab/R2022b
 
 A MATLAB job needs MATLAB scripts that you intend to run and a job submission script to submit it to the job scheduler.
 
-### Example:
+### An Example
 In this simple example, the system prints the phrase “Hello World !” in the output file.
 
 1. The MATLAB script: HelloWorld.m
+
 ``` matlab title="HelloWorld.m"
 % display information
 fprintf('Hello World !\n\n');
 ```
 2. The job submission script: matlab_job.pbs
+
 ``` bash title="matlab_job.pbs" linenums="1"
 #!/bin/bash
 #PBS -q cpu1h
 #PBS -N test_matlab_job
 
 ##only 1 processor core is requested to test this as a serial job
-#PBS -l select=1:mem=2gb:ncpus=1
+#PBS -l nodes=1:ppn=1
 #PBS -l walltime=00:10:00
 
 module load codes/matlab/R2022b
@@ -59,19 +61,19 @@ exit 0
 
 3. To submit the job:
 ```
-$ qsub  matlab_job.pbs
+$ qsub matlab_job.pbs
 ```
 
 4. To check the status of the job (It may show nothing if the job has been completed):
 ```
-$ qstat  -u  $USER
+$ qstat -u $USER
 ```
 
 5. To view the error file:
 ```
-$ cat  test_matlab_job.e[JOB ID]
+$ cat test_matlab_job.e[JOB ID]
 ```
 6. To view the output file:
 ```
-$ cat  test_matlab_job.o[JOB ID]
+$ cat test_matlab_job.o[JOB ID]
 ```
