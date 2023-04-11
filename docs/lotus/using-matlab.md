@@ -35,13 +35,13 @@ In this simple example, the system prints the phrase “Hello World !” in the 
 
 1. The MATLAB script: HelloWorld.m
 
-``` matlab title="HelloWorld.m"
+```
 % display information
 fprintf('Hello World !\n\n');
 ```
 2. The job submission script: matlab_job.pbs
 
-``` bash title="matlab_job.pbs" linenums="1"
+```
 #!/bin/bash
 #PBS -q cpu1h
 #PBS -N test_matlab_job

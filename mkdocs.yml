@@ -72,6 +72,6 @@ plugins:
       remove_comments: true
   - git-revision-date
 
-copyright: Copyright &copy; 2021 Computer Center, IIT Tirupati
+copyright: Copyright &copy; 2021-23 Computer Center, IIT Tirupati
 
 
